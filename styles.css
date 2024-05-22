@@ -1,0 +1,52 @@
+body {
+  background: lightgray;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+#header {
+  background: white;
+  padding: 10px;
+  margin: -10px -10px auto -10px;
+}
+
+#main {
+  display: block;
+}
+
+div[id*=image] {
+  background: white;
+  width: 40%;
+  height: 40%;
+  margin: 60px auto;
+  overflow: hidden;
+}
+
+.left_cap {
+  padding: 10px;
+  float:left;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.right_cap {
+  padding: 10px;
+  float:right;
+  color:rgb(172, 167, 167);
+  font-size: 14px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#footer {
+  background: white;
+  margin: 5px 0px;
+  border-top: 2px solid lightgray;
+  padding: 5px 15px 15px 15px
+}
